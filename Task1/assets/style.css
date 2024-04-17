@@ -1,0 +1,147 @@
+/* headerccs */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body , body * {
+    font-family: sans-serif;
+}
+header{
+    background-color:  rgba(0, 164, 109, 0.552);
+}
+.container{
+    height: 70px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+.container div{
+    display: inline-block;
+}
+.container .logo {
+    font-size: xx-large;
+    
+    margin-top: 10px;
+    margin-left: 50px;
+   
+
+}
+.container .nav-items{
+   float: right;
+}
+.container .nav-items ul{
+    display: flex;
+    font-size: larger;
+    
+   
+}
+.container .nav-items ul li{
+    margin-left: 30px;
+    list-style: none;
+    
+}
+.container .nav-items ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+/* mainccs */
+/*section template*/
+#template .container{
+    height: 500px;
+   background-color: white;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#template .container .template{
+    color: white;
+    background-color: blue;
+   text-transform: uppercase;
+   padding: 10px;
+
+}
+/*section context*/
+#context {
+    background-color: rgba(0, 164, 109, 0.552);
+}
+#context {
+    height: 100px;
+}
+#card .container, #context .container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    height: 100%;
+}
+#context .container .text{
+    color: white;
+    margin-top: 45px;
+
+}
+#context .container .text h1{
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#context .container .text p{
+    color: white;
+}
+/*section card*/
+#card .container{
+    background-color: white;
+
+}
+#card .container .text{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+#card .container .text h2{
+    color: green;
+    
+    text-transform: uppercase;
+    text-align: center;
+
+}
+#card .container .text p{
+    color: green;
+      
+}
+#card .container .cards{
+    display:flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: auto;
+    height: auto;  
+}
+#card .container .cards .card:nth-child(1){
+    background-color: pink;
+}
+#card .container .cards .card:nth-child(2){
+    background-color: green;
+}
+#card .container .cards .card:nth-child(3){
+    background-color: yellow;
+}
+#card .container .cards .card:nth-child(4){
+    background-color: goldenrod;
+}
+.card {
+    width: 24%  ;
+   background-color: aqua;
+}
+#card .container .text{
+    height: 50px;    
+}
+#card {
+
+}
